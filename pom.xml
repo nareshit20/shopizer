@@ -48,6 +48,12 @@
    			<artifactId>javax.el-api</artifactId>
    			<version>${javax.el.version}</version>
 		</dependency> -->
+	    
+	        <dependency>
+                        <groupId>org.springframework.boot</groupId>
+                        <artifactId>spring-boot-starter-tomcat</artifactId>
+                        <scope>provided</scope> <!-- This is important. -->
+                </dependency>
 
 		<!-- https://mvnrepository.com/artifact/javax.inject/javax.inject -->
 		<dependency>
